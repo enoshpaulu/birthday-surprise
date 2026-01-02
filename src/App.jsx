@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 /* =====================================================
    🔐 MASTER SWITCH — YOU CONTROL THIS
    ===================================================== */
-const TEST_MODE = true; // 🔁 set to false for her final experience
+const TEST_MODE = false; // 🔁 set to false for her final experience
 
 /* 🎂 REAL & TEST DATES */
 const REAL_BIRTHDAY = new Date("2026-01-22T00:00:00");
