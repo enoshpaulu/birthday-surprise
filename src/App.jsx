@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const TEST_MODE = false; // 🔁 set to false for her final experience
 
 const TEST_MODE = true; // 🔁 set to false for her final experience
-const REAL_BIRTHDAY = new Date("2026-01-21T19:40:00");
+const REAL_BIRTHDAY = new Date("2026-01-21T20:30:00");
 const TEST_BIRTHDAY = new Date("2026-01-21T16:11:00"); // you can change freely
 const DOB = new Date("2007-01-22T22:58:05")
 const TOGETHER_DATE = new Date("2025-11-05T00:59:35");
