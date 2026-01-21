@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 /* =====================================================
    🔐 MASTER SWITCH — YOU CONTROL THIS
    ===================================================== */
-
 const TEST_MODE = false; // 🔁 set to false for her final experience
-const REAL_BIRTHDAY = new Date("2026-01-21T18:00:00");
+const REAL_BIRTHDAY = new Date("2026-01-21T20:30:00");
 const TEST_BIRTHDAY = new Date("2026-01-21T16:11:00"); // you can change freely
 const DOB = new Date("2007-01-22T22:58:05")
 const TOGETHER_DATE = new Date("2025-11-05T00:59:35");
@@ -566,24 +565,24 @@ export default function App() {
    ===================================================== */
   if (screen === 5) {
     const memories = [
-      { image: "/photos/1.jpeg", caption: "Some moments just stayed", align: "center" },
-      { image: "/photos/2.jpeg", caption: "Smiles came naturally", align: "left" },
-      { image: "/photos/3.jpeg", caption: "This felt like home", align: "right" },
-      { image: "/photos/4.jpeg", caption: "A quiet kind of happiness", align: "center" },
-      { image: "/photos/5.jpeg", caption: "Unplanned but perfect", align: "left" },
-      { image: "/photos/6.jpg", caption: "Time slowed down here", align: "right" },
-      { image: "/photos/1.jpeg", caption: "Some moments just stayed", align: "center" },
-      { image: "/photos/2.jpeg", caption: "Smiles came naturally", align: "left" },
-      { image: "/photos/3.jpeg", caption: "This felt like home", align: "right" },
-      { image: "/photos/4.jpeg", caption: "A quiet kind of happiness", align: "center" },
-      { image: "/photos/5.jpeg", caption: "Unplanned but perfect", align: "left" },
-      { image: "/photos/6.jpg", caption: "Time slowed down here", align: "right" },
-      { image: "/photos/1.jpeg", caption: "Some moments just stayed", align: "center" },
-      { image: "/photos/2.jpeg", caption: "Smiles came naturally", align: "left" },
-      { image: "/photos/3.jpeg", caption: "This felt like home", align: "right" },
-      { image: "/photos/4.jpeg", caption: "A quiet kind of happiness", align: "center" },
-      { image: "/photos/5.jpeg", caption: "Unplanned but perfect", align: "left" },
-      { image: "/photos/6.jpg", caption: "Time slowed down here", align: "right" },
+      { image: "https://static.wixstatic.com/media/77b243_4203dd502994406ab07d314b12c055c3~mv2.jpeg", caption: "Awww, you look so cute", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_ab271730797e42aaaa2efb8eb8514476~mv2.jpeg", caption: "Birthday is meant to be celebrated, not because it is special but we survived a year through the madness", align: "left" },
+      { image: "https://static.wixstatic.com/media/77b243_54d3b3de80ad4d0aa9ff63369e1263e4~mv2.jpeg", caption: "Smile, because you look pretty in it", align: "right" },
+      { image: "https://static.wixstatic.com/media/77b243_25eb8b42e3824fc5a9328bdbcc51ccc5~mv2.jpeg", caption: "Model, Model, Super Model", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_fdf5d7fc783f438aaf6a90e927a9ccad~mv2.jpeg", caption: "Damn, you look so innocent, don't let the world reach your core.", align: "left" },
+      { image: "https://static.wixstatic.com/media/77b243_ac40ea498ecb4cd3bdbf495c5d3f9a4e~mv2.jpeg", caption: "You are gorgeous. You are Mine. Chitti Nadumu ki fida", align: "right" },
+      { image: "https://static.wixstatic.com/media/77b243_e6807a6a0f474e22882901217c0b02df~mv2.jpeg", caption: "Attitude ka Queen, everyone are beneath me", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_9740f49af9904db5b7cde583bb089103~mv2.jpeg", caption: "Our first unofficial pic, when we weren't aware about our worlds", align: "left" },
+      { image: "https://static.wixstatic.com/media/77b243_e168487093fd4ba881554fe505626d66~mv2.jpeg", caption: "The day our eyes searched for each other", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_a9d89d452def47bb9ef0bf40d8c7ede1~mv2.jpeg", caption: "Our First Official Pic, our Dating era started", align: "right" },
+      { image: "https://static.wixstatic.com/media/77b243_2c44495457dc48f890158f3de109f93a~mv2.jpeg", caption: "We look so happy and perfect for each other", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_98ac6e6cf85b46348e121e68925d8c54~mv2.jpeg", caption: "Don't let me go, I will hold you like this", align: "left" },
+      { image: "https://static.wixstatic.com/media/77b243_39fd861eab3e40899042c269f27129be~mv2.jpeg", caption: "One of our best pic, Let's face all struggles together", align: "right" },
+      { image: "https://static.wixstatic.com/media/77b243_37888e9eb9394646a7a4af6083eaa0fb~mv2.jpeg", caption: "Our Smiles are pure and we are at our happiest moments", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_5ab6c262d74942ba9010bf9d937d5eaf~mv2.jpeg", caption: "I sneaked a picture of us, while you are angry", align: "left" },
+      { image: "https://static.wixstatic.com/media/77b243_389de4815ed84380b5de922e459e90f3~mv2.jpeg", caption: "The day I learnt how to eat a Chocolate", align: "right" },
+      { image: "https://static.wixstatic.com/media/77b243_8955cff2128a4a6ebf2e75a09e78d4b9~mv2.jpeg", caption: "Let's Worship our God, together and depend on him throughout all our days", align: "center" },
+      { image: "https://static.wixstatic.com/media/77b243_c4f435528f554575bae2dbd9b7320c89~mv2.jpeg", caption: "I love you Mummy, you are my everything", align: "left" },
       // continue till 18 if you want
     ];
 
@@ -654,7 +653,8 @@ export default function App() {
                 style={{
                   width: "100%",
                   aspectRatio: "1 / 1",
-                  objectFit: "cover",
+                  objectFit: "contain",
+                  backgroundColor: "#fde7f0",
                   borderRadius: "20px",
                   display: "block",
                 }}
