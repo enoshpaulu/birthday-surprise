@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 /* =====================================================
    🔐 MASTER SWITCH — YOU CONTROL THIS
    ===================================================== */
-const TEST_MODE = false; // 🔁 set to false for her final experience
 
 const TEST_MODE = false; // 🔁 set to false for her final experience
 const REAL_BIRTHDAY = new Date("2026-01-21T18:00:00");
